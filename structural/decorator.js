@@ -64,7 +64,7 @@ class IceDecorator extends TeaDecorator {
 }
 
 let tea1 = new BlackTea();
-console.log("tea1: ");
+console.log("--tea1: ");
 console.log("name: " + tea1.getName());
 console.log("price: " + tea1.getPrice() + "\n");
 
@@ -72,6 +72,6 @@ let tea2 = new GreenTea();
 tea2 = new IceDecorator(tea2);
 tea2 = new SugarDecorator(tea2, 3);
 tea2 = new LemonDecorator(tea2);
-console.log("tea2: ");
+console.log("--tea2: ");
 console.log("name: " + tea2.getName());
 console.log("price: " + tea2.getPrice());
