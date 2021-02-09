@@ -56,4 +56,3 @@ console.log(`  ${webcamera.input()}\n`);
 
 console.log(`${keyboard.name}:`);
 console.log(`  ${keyboard.input()}\n`);
-dfsdfasdfsd
